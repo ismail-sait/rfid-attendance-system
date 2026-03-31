@@ -22,3 +22,6 @@ The RFID reader reads the UID from the RFID card using SPI communication. The Ar
 - School and College Attendance System
 - Office Attendance System
 - Employee Entry Monitoring System
+
+## Circuit Diagram
+![Circuit Diagram](circuit diagram.jpeg)
