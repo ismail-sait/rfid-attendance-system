@@ -1,0 +1,5 @@
+Arduino Uno
+RFID RC522
+16x2 LCD
+Jumper Wires
+Breadboard
