@@ -1,16 +1,24 @@
-project : RFID Based Attendance System
+ project: RFID Based Attendance System
 
-Description:
-This project is an RFID based attendance system using Arduino and RC522 RFID module. When a card is scanned, the system reads the card ID and marks attendance automatically. The ID is displayed on LCD.
+ Project Overview :
+This project is an RFID-based attendance system developed using Arduino and RC522 RFID module. The system reads the unique ID of RFID cards and marks attendance automatically. The card ID is displayed on a 16x2 LCD display.
 
- components Used:
+ Components Used :
 - Arduino Uno
 - RFID RC522 Module
-- 16x2 LCD
-- Jumper Wires
+- 16x2 LCD Display
 - Breadboard
+- Jumper Wires
 
- Technologies Used:
+ Technologies Used :
 - Embedded C
 - Arduino IDE
 - SPI Communication
+
+ Working Principle :
+The RFID reader reads the UID from the RFID card using SPI communication. The Arduino processes the UID and displays the card number on the LCD display. Attendance is recorded automatically when a valid card is scanned.
+
+ Applications :
+- School and College Attendance System
+- Office Attendance System
+- Employee Entry Monitoring System
